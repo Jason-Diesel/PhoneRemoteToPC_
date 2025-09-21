@@ -16,4 +16,11 @@
   </div>
 </div>
 
+## Usage
+<p>
+  Create a script by going into PCRemoteServer/Scripts/ and create a bat script there, (The program get the Scripts by using the path "../Scripts"),
+  or you can also create a function in C++ by going into PCRemoteServer/uh/Functions.h and defining your own function.<br>
+  These can later be activated by starting the server, start the client, write the code on the client given by the server (OPS both server and client must be on the same local network (bcs nobody wanna do shit like portforward(and I don't wanna create my own global server for this shit))), and then pressing the corresponding button 
+</p>
+
 ## 
