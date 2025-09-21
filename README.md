@@ -20,10 +20,19 @@
 <p>
   Create a script by going into PCRemoteServer/Scripts/ and create a bat script there, (The program get the Scripts by using the path "../Scripts"),
   or you can also create a function in C++ by going into PCRemoteServer/uh/Functions.h and defining your own function.<br>
-  These can later be activated by starting the server, start the client, write the code on the client given by the server (OPS both server and client must be on the same local network (bcs nobody wanna do shit like      portforward(and I don't wanna create my own global server for this shit))), and then pressing the corresponding button.
+  These can later be activated by starting the server, start the client, write the code on the client given by the server (OPS both server and client must be on the same local network (bcs nobody wanna do shit like portforward(and I don't wanna create my own global server for this shit))), and then pressing the corresponding button.
   <br><br>
   The server can in release mode also be hide the window by pressing the X button, and will quit by pressing the quit button.<br>
   The server window can also reappear by pressing CTRL + SHIFT + F6.
 </p>
+
+## Install
+### Server
+Download everything as a ZIP, run the code with visual studio 2022 or later.<br>
+Copy the sfml-<Something>.dll:s from PCRemoteServer/uh into the build folder and do as you please with the program.<br>
+
+### Client
+Download Unity version 2023.2.20f1 (I don't know if other versions also work), and Add -> Add project from disk, choose the "AndroidUnityClient" folder, open the sample scene in scenes.<br>
+Now do as you please with the program.
 
 ## 
