@@ -28,11 +28,11 @@
 
 ## Install
 ### Server
-Download everything as a ZIP, run the code with visual studio 2022 or later.<br>
+Download everything as a ZIP unpack it, run the code sln solution from PCRemoteServer with visual studio 2022 or later.<br>
 Copy the sfml-<Something>.dll:s from PCRemoteServer/uh into the build folder and do as you please with the program.<br>
 
 ### Client
-Download Unity version 2023.2.20f1 (I don't know if other versions also work), and Add -> Add project from disk, choose the "AndroidUnityClient" folder, open the sample scene in scenes.<br>
+Download Unity version 2023.2.20f1 (I don't know if other versions also work), and Add -> Add project from disk, choose the "AndroidUnityClient" folder from the unpacked ZIP folder, open the sample scene in scenes.<br>
 Now do as you please with the program.
 
 ## 
